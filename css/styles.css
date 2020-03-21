@@ -47,6 +47,56 @@
 
 }
 
+@media screen and (orientation: landscape){
+  body {
+
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: auto;
+    width: 375px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .top-container p {
+    margin: 10px auto 40px auto;
+    text-align: center;
+    width: 300px;
+
+  }
+
+  .middle-container {
+    display: block;
+    text-align: center;
+
+  }
+
+  .card {
+    text-align: left;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    width: 350px;
+    height: 196.875px;
+    background-color:white;
+    box-shadow: 0 15px 20px -20px hsl(234, 12%, 34%);
+    margin: 20px auto 0 10px;
+  }
+
+  .card p {
+    margin-left: 20px;
+    position: absolute;
+    top: 40px;
+  }
+
+}
+
+
 @media screen and (min-width: 768px) {
   body {
 
