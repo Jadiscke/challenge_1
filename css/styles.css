@@ -1,21 +1,128 @@
-body {
+@media screen and (max-width: 768px){
+  body {
 
-  background-color: hsl(0, 0%, 98%);
-  color: hsl(234, 12%, 34%);
-  font-size: 15px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-  margin: auto;
-  width: 1440px;
-  height: 875px;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: auto;
+    width: 375px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .top-container p {
+    margin: 10px auto 40px auto;
+    text-align: center;
+    width: 300px;
+
+  }
+
+  .middle-container {
+    display: block;
+    text-align: center;
+
+  }
+
+  .card {
+    text-align: left;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    width: 350px;
+    height: 196.875px;
+    background-color:white;
+    box-shadow: 0 15px 20px -20px hsl(234, 12%, 34%);
+    margin: 20px auto 0 10px;
+  }
+
+  .card p {
+    margin-left: 20px;
+    position: absolute;
+    top: 40px;
+  }
+
 }
 
+@media screen and (min-width: 768px) {
+  body {
+
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: auto;
+    width: 1440px;
+    height: 875px;
+  }
+
+  .middle-container {
+    display: block;
+    text-align: center;
+    height: 718px  ;
+
+  }
+
+  .top-container p {
+    margin: auto;
+    text-align: center;
+    width: 500px;
+
+  }
+
+  .card {
+    text-align: left;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    width: 350px;
+    height: 196.875px;
+    background-color:white;
+    margin-top: 0;
+    box-shadow: 0 15px 20px -15px hsl(229, 6%, 66%);
+  }
+
+  .card p {
+    margin-left: 20px;
+    position: absolute;
+    top: 40px;
+  }
+
+  .super {
+    left: 205px;
+    top: 400px;
+  }
+
+  .team {
+    top: 250px;
+    left: 585px;
+  }
+
+  .karma {
+    top: 476px;
+    left: 585px;
+  }
+
+  .calc {
+    top: 400px;
+    right: 205px;
+  }
+
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
 h1 {
   text-align: center;
 }
 
 footer {
-  margin: auto;
+  margin:  40px auto 20px auto;
 }
 
 .top_title {
@@ -29,43 +136,18 @@ footer {
   font-weight: 600;
 }
 
-.top-container p {
-  margin: auto;
-  text-align: center;
-  width: 500px;
 
-}
 
-.middle-container {
-  display: block;
-  text-align: center;
-  height: 718px  ;
 
-}
 
-.card {
-  text-align: left;
-  border-radius: 10px;
-  display: inline-block;
-  position: absolute;
-  width: 350px;
-  height: 196.875px;
-  background-color:white;
-  margin-top: 0;
-  box-shadow: 0 15px 20px -15px; hsl(234, 12%, 34%);
-}
 
 h3 {
   position: absolute;
-  top: 20px;
+  top: 5px;
   margin-left: 20px;
 }
 
-.card p {
-  margin-left: 20px;
-  position: absolute;
-  top: 50px;
-}
+
 
 hr {
   margin:0;
@@ -97,25 +179,7 @@ hr {
   background-color: hsl(34, 97%, 64%);
 }
 
-.super {
-  left: 205px;
-  top: 400px;
-}
 
-.team {
-  top: 250px;
-  left: 585px;
-}
-
-.karma {
-  top: 476px;
-  left: 585px;
-}
-
-.calc {
-  top: 400px;
-  right: 205px;
-}
 
 .card img {
   position: absolute;
