@@ -52,6 +52,7 @@ footer {
   height: 196.875px;
   background-color:white;
   margin-top: 0;
+  box-shadow: 0 15px 20px -15px; hsl(234, 12%, 34%);
 }
 
 h3 {
@@ -114,4 +115,10 @@ hr {
 .calc {
   top: 400px;
   right: 205px;
+}
+
+.card img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
