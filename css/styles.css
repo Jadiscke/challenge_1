@@ -1,0 +1,117 @@
+body {
+
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(234, 12%, 34%);
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  margin: auto;
+  width: 1440px;
+  height: 875px;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  margin: auto;
+}
+
+.top_title {
+  margin-top: 50px;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.bottom_title {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.top-container p {
+  margin: auto;
+  text-align: center;
+  width: 500px;
+
+}
+
+.middle-container {
+  display: block;
+  text-align: center;
+  height: 718px  ;
+
+}
+
+.card {
+  text-align: left;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  width: 350px;
+  height: 196.875px;
+  background-color:white;
+  margin-top: 0;
+}
+
+h3 {
+  position: absolute;
+  top: 20px;
+  margin-left: 20px;
+}
+
+.card p {
+  margin-left: 20px;
+  position: absolute;
+  top: 50px;
+}
+
+hr {
+  margin:0;
+  position: absolute;
+  top: 0;
+  left:2px;
+  border-width: 0;
+  display: inline-block;
+  border-style: none;
+  width: 347px;
+  height: 5px;
+  border-radius: 15px 15px 0 0;
+  background-color: black;
+}
+
+.red {
+  background-color: hsl(0, 78%, 62%);
+}
+
+.lightblue {
+  background-color: hsl(180, 62%, 55%);
+}
+
+.blue {
+  background-color: hsl(212, 86%, 64%);
+}
+
+.orange {
+  background-color: hsl(34, 97%, 64%);
+}
+
+.super {
+  left: 205px;
+  top: 400px;
+}
+
+.team {
+  top: 250px;
+  left: 585px;
+}
+
+.karma {
+  top: 476px;
+  left: 585px;
+}
+
+.calc {
+  top: 400px;
+  right: 205px;
+}
