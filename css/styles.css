@@ -1,3 +1,8 @@
+*, html {
+    margin:0;
+    padding:0;
+}
+
 @media screen and (max-width: 768px){
   body {
 
@@ -55,7 +60,6 @@
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    margin: auto;
     width: 375px;
   }
 
@@ -113,7 +117,10 @@
   .middle-container {
     display: block;
     text-align: center;
-    height: 718px  ;
+    width: 1440px;
+    height: 718px;
+    margin: 0;
+    padding: 0;
 
   }
 
@@ -159,7 +166,7 @@
 
   .calc {
     top: 400px;
-    right: 205px;
+    left: 965px;
   }
 
 }
